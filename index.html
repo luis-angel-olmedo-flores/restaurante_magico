@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservación Restaurante Mágico</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Restaurante de Comida Mágica</h1>
+        <form id="reserva-form">
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            <input type="number" id="personas" placeholder="Número de personas (solo adultos)" required>
+            
+            <label for="menu">Selecciona un menú mágico:</label>
+            <select id="menu">
+                <option value="dragones">Menú de Dragones</option>
+                <option value="unicornios">Menú de Unicornios</option>
+            </select>
+
+            <label for="ingredientes">Elige ingredientes mágicos:</label>
+            <select id="ingredientes" multiple>
+                <option value="escamas de dragón">Escamas de Dragón</option>
+                <option value="polvo de estrellas">Polvo de Estrellas</option>
+                <option value="lágrimas de unicornio">Lágrimas de Unicornio</option>
+                <option value="esencia de fénix">Esencia de Fénix</option>
+            </select>
+
+            <div id="mensajeConfirmacion"></div>
+
+            <div class="botones">
+                <button type="button" id="hacerReservacion">Hacer Reservación</button>
+                <button type="button" id="generarTicket">Generar Ticket</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/reservacion.js"></script>
+</body>
+</html>
+

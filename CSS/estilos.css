@@ -1,0 +1,82 @@
+body {
+    background-color: #FAF3DD; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: white; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.titulo {
+    background-color: #9D8189; 
+    color: white;
+    padding: 15px;
+    font-size: 1.5em;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    background-color: #FFE8D6; 
+    border-radius: 8px;
+    border-top: 2px solid #D8A7B1; 
+    border-bottom: 2px solid #D8A7B1; 
+}
+
+input, select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #D8A7B1;
+    border-radius: 4px;
+}
+
+.botones {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 10px;
+    background-color: #DDBEA9; 
+    border-top: 2px solid #D8A7B1; 
+
+button {
+    padding: 10px 20px;
+    font-size: 0.9em;
+    background-color: #5A3E3E;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    max-width: 150px;
+}
+
+#generarTicket {
+    background-color: #4A4E69;
+}
+
+#mensajeConfirmacion {
+    position: absolute;
+    top: 0;
+    right: -200px;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    max-width: 200px;
+    text-align: left;
+} }
